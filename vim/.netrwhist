@@ -1,9 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/Users/chromy/proj/enigma/challenge'
-let g:netrw_dirhist_2='/Users/chromy/proj/Transcendence/Includes'
-let g:netrw_dirhist_3='/Users/chromy/.vim'
-let g:netrw_dirhist_4='/Users/chromy/proj/malice/examples'
-let g:netrw_dirhist_5='/Users/chromy/proj/malice/tests'
-let g:netrw_dirhist_6='/Users/chromy/.zprezto'
-let g:netrw_dirhist_7='/Users/chromy'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/Users/chromy'
