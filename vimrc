@@ -11,9 +11,14 @@ set colorcolumn=80
 set expandtab
 set tabstop=4
 set shiftwidth=4
-set autoindent
-set hlsearch
 
+set autoindent
+
+" nice search
+set incsearch
+set ignorecase
+set smartcase
+set hlsearch
 
 " This makes RVM work inside Vim. I have no idea why.
 set shell=bash
