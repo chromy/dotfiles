@@ -2,8 +2,6 @@
 
 call pathogen#infect()
 
-" set runtimepath=~/.vim,$VIMRUNTIME
-
 set number
 
 set colorcolumn=80
@@ -96,6 +94,9 @@ augroup END
 
 highlight EOLWS ctermbg=red guibg=red
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Map space to kill white space
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 function! <SID>StripTrailingWhitespace()
     " Preparation: save last search, and cursor position.
     let _s=@/
@@ -108,4 +109,4 @@ function! <SID>StripTrailingWhitespace()
     call cursor(l, c)
 endfunction
 nmap <silent> <Leader><space> :call <SID>StripTrailingWhitespace()<CR>
-
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
