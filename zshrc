@@ -1,1 +1,0 @@
-/Users/chromy/dotfiles/zshrc
