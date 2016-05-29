@@ -1,0 +1,6 @@
+all_files_in_repos :=          
+current_branch := master
+origin_name := origin
+origin_uri := https://github.com/chromy/dotfiles.git
+repos_name := vim-fakeclip
+version := a08e7bf-dirty
