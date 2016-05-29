@@ -25,3 +25,6 @@
 [submodule "prezto"]
 	path = prezto
 	url = https://github.com/chromy/prezto.git
+[submodule "zsh/zprezto.symlink"]
+	path = zsh/zprezto.symlink
+	url = https://github.com/chromy/prezto.git
