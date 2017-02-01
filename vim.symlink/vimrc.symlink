@@ -1,6 +1,7 @@
 " Some parts stolen from Gary Bernhardt's .vimrc
 
-call pathogen#infect()
+set nocp
+execute pathogen#infect()
 
 set number
 
