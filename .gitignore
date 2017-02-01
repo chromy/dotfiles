@@ -1,3 +1,4 @@
 .DS_Store
 vim/.netrwhist
+nvim.config.symlink/.netrwhist
 git/gitconfig.local.symlink
